@@ -12,7 +12,7 @@ Or create a Heroku app manually:
 ```
 $ heroku create
 $ heroku stack:set container
-$ heroku config:set CHISEL_AUTH=user:pass
+$ heroku config:set HORSE_AUTH=user:pass
 $ git push heroku main
 ...
 remote: Verifying deploy... done.
