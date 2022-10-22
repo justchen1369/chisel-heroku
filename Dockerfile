@@ -4,4 +4,5 @@ RUN chmod +x /bin/horse
 RUN useradd -m heroku
 USER heroku
 EXPOSE 5000
+CMD echo "horse server --auth $HORSE_AUTH --socks5 --reverse"
 CMD horse server --auth $HORSE_AUTH --socks5 --reverse
